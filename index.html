@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Express GNR</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Botón flotante reforzado */
+        .btn-correo-fijo {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background-color: #1e3a8a;
+            color: white !important;
+            padding: 18px 30px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: bold;
+            font-size: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            z-index: 10000;
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-900 text-xl">
+
+    <header class="bg-[#1e3a8a] text-white p-5 shadow-lg sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="text-2xl font-black uppercase">
+                <i class="fas fa-gavel"></i> Legal Express GNR
+            </div>
+        </div>
+    </header>
+
+    <a href="mailto:legalexpress26@gmail.com" class="btn-correo-fijo">
+        <i class="fas fa-envelope"></i>
+        <span>Escribir Mensaje</span>
+    </a>
+
+    <section class="py-24 px-6 text-center bg-white border-b">
+        <h1 class="text-[#1e3a8a] text-4xl md:text-6xl font-black mb-8 leading-tight">
+            Asesoría jurídica digital,<br>rápida y confiable
+        </h1>
+        <p class="text-gray-500 text-2xl mb-12 max-w-3xl mx-auto">
+            Consultas legales claras, seguras y accesibles desde cualquier lugar de Nicaragua.
+        </p>
+        
+        <a href="mailto:enmanuel.perezwyk@gmail.com" 
+           class="bg-[#1e3a8a] text-white px-12 py-5 rounded-full font-black text-2xl hover:bg-blue-800 shadow-2xl inline-block uppercase">
+            Iniciar Consulta Ahora
+        </a>
+    </section>
+
+    <section id="pagos" class="py-20 bg-slate-100">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-[#1e3a8a] text-3xl font-black mb-12 uppercase">Métodos de Pago</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="bg-white p-10 rounded-2xl shadow-md text-3xl font-black text-blue-900 flex items-center justify-center italic">BAMPRO</div>
+                <div class="bg-white p-10 rounded-2xl shadow-md text-3xl font-black text-blue-900 flex items-center justify-center italic">LAFISE</div>
+                <div class="bg-white p-10 rounded-2xl shadow-md text-3xl font-black text-blue-900 flex items-center justify-center italic">BAC</div>
+                <a href="https://wa.me/50585829463" target="_blank" class="bg-white p-10 rounded-2xl shadow-md border-4 border-green-500 flex flex-col items-center justify-center hover:bg-green-50 transition">
+                    <i class="fab fa-whatsapp text-green-500 text-4xl mb-2"></i>
+                    <span class="font-bold text-xl uppercase text-slate-700">WhatsApp</span>
+                </a>
+            </div>
+            <p class="mt-8 text-gray-500 italic text-lg">El costo de la consulta se indicará antes de realizar el pago.</p>
+        </div>
+    </section>
+
+    <section id="quienes-somos" class="py-20 max-w-6xl mx-auto px-6">
+        <div class="bg-white p-12 rounded-3xl shadow-sm border border-gray-200 mb-12">
+            <h2 class="text-[#1e3a8a] text-4xl font-bold mb-6 italic">¿Quiénes Somos?</h2>
+            <p class="text-2xl leading-relaxed text-gray-700">
+                <strong>Legal Express G N R</strong> es un emprendimiento digital de servicios jurídicos que brinda asesoría legal rápida y confiable a personas naturales y abogados rookies en Nicaragua.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-10">
+            <div class="bg-white p-10 rounded-3xl shadow-md border-t-8 border-blue-800">
+                <h3 class="text-blue-900 text-2xl font-black uppercase mb-4 flex items-center gap-3">
+                    <i class="fas fa-bullseye text-blue-800"></i> Propósito
+                </h3>
+                <p class="text-xl text-gray-600">Brindar asesoría jurídica digital accesible, eficiente y centrada en el cliente.</p>
+            </div>
+            <div class="bg-white p-10 rounded-3xl shadow-md border-t-8 border-blue-800">
+                <h3 class="text-blue-900 text-2xl font-black uppercase mb-4 flex items-center gap-3">
+                    <i class="fas fa-eye text-blue-800"></i> Visión
+                </h3>
+                <p class="text-xl text-gray-600">Consolidarnos como una plataforma líder de servicios jurídicos digitales en Nicaragua.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white border-y">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+            <div><i class="fas fa-bolt text-5xl text-blue-800 mb-4"></i><p class="font-black uppercase text-sm">Atención Rápida</p></div>
+            <div><i class="fas fa-comments text-5xl text-blue-800 mb-4"></i><p class="font-black uppercase text-sm">Lenguaje Claro</p></div>
+            <div><i class="fas fa-shield-alt text-5xl text-blue-800 mb-4"></i><p class="font-black uppercase text-sm">Confidencialidad</p></div>
+            <div><i class="fas fa-user-shield text-5xl text-blue-800 mb-4"></i><p class="font-black uppercase text-sm">Acompañamiento</p></div>
+        </div>
+    </section>
+
+    <footer class="bg-[#0f172a] text-white py-16 px-6 text-center">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <p class="text-xl font-bold uppercase tracking-widest opacity-60">Managua, Nicaragua</p>
+            <p class="text-blue-400 font-black text-3xl underline break-words">legalexpress26@gmail.com
+                © 2026 Legal Express G N R - Todos los derechos reservados
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
